@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07F71D47237FAE7600F812A4 /* BagelSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F71D46237FAE7600F812A4 /* BagelSwift.swift */; };
+		07F71D4A237FAFCC00F812A4 /* Bagel-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F71D49237FAFCC00F812A4 /* Bagel-Bridging-Header.h */; };
 		3760A45B21F1383F004D1E07 /* BagelDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3760A44121F1383F004D1E07 /* BagelDeviceModel.m */; };
 		3760A45C21F1383F004D1E07 /* BagelRequestCarrier.m in Sources */ = {isa = PBXBuildFile; fileRef = 3760A44221F1383F004D1E07 /* BagelRequestCarrier.m */; };
 		3760A45D21F1383F004D1E07 /* BagelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3760A44321F1383F004D1E07 /* BagelController.h */; };
@@ -40,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		07F71D46237FAE7600F812A4 /* BagelSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelSwift.swift; sourceTree = "<group>"; };
-		07F71D48237FAEFB00F812A4 /* Bagel-Bridging-Header.h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bagel-Bridging-Header.h.h"; sourceTree = "<group>"; };
+		07F71D49237FAFCC00F812A4 /* Bagel-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bagel-Bridging-Header.h"; sourceTree = "<group>"; };
 		3760A43821F13817004D1E07 /* Bagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3760A44121F1383F004D1E07 /* BagelDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagelDeviceModel.m; sourceTree = "<group>"; };
 		3760A44221F1383F004D1E07 /* BagelRequestCarrier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagelRequestCarrier.m; sourceTree = "<group>"; };
@@ -134,7 +135,7 @@
 				3760A45221F1383F004D1E07 /* BagelUtility.h */,
 				3760A44421F1383F004D1E07 /* BagelUtility.m */,
 				07F71D46237FAE7600F812A4 /* BagelSwift.swift */,
-				07F71D48237FAEFB00F812A4 /* Bagel-Bridging-Header.h.h */,
+				07F71D49237FAFCC00F812A4 /* Bagel-Bridging-Header.h */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -168,6 +169,7 @@
 				3760A47421F1383F004D1E07 /* BagelBaseModel.h in Headers */,
 				3760A45F21F1383F004D1E07 /* BagelProjectModel.h in Headers */,
 				3760A46521F1383F004D1E07 /* BagelURLConnectionInjector.h in Headers */,
+				07F71D4A237FAFCC00F812A4 /* Bagel-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -323,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -411,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
