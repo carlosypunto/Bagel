@@ -29,7 +29,7 @@ FOUNDATION_EXPORT const unsigned char BagelVersionString[];
 
 #import <Foundation/Foundation.h>
 
-#import "BagelBaseModel.h"
+#import "Bagel.h"
 #import "BagelCarrierDelegate.h"
 #import "BagelConfiguration.h"
 #import "BagelDeviceModel.h"
