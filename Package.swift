@@ -2,22 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "BagelSwift",
+    name: "Bagel",
     platforms: [
         .iOS(.v10)
     ],
     products: [
-        .library(name: "BagelSwift", targets: ["BagelSwift"])
+        .library(name: "Bagel", targets: ["Bagel"])
     ],
     dependencies: [
         .package(url: "https://github.com/carlosypunto/CocoaAsyncSocket.git", .branch("master")),
     ],
     targets: [
-        .target(
-            name: "BagelSwift",
-            dependencies: ["Bagel"],
-            path: "iOS/BagelSwift"
-        ),
         .target(
             name: "Bagel",
             dependencies: ["CocoaAsyncSocket"],
