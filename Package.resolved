@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "CocoaAsyncSocket",
-        "repositoryURL": "https://github.com/grangej/CocoaAsyncSocket.git",
+        "repositoryURL": "https://github.com/carlosypunto/CocoaAsyncSocket.git",
         "state": {
           "branch": "master",
           "revision": "fb038f6736f2e4459fa8602bc7fd1475f11de3b2",
