@@ -15,8 +15,13 @@ let package = Package(
     targets: [
         .target(
             name: "BagelSwift",
-            dependencies: ["CocoaAsyncSocket"],
+            dependencies: ["Bagel"],
             path: "iOS/BagelSwift"
+        ),
+        .target(
+            name: "Bagel",
+            dependencies: ["CocoaAsyncSocket"],
+            path: "iOS/Source"
         )
     ]
 )
